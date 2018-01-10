@@ -1,0 +1,31 @@
+= Antora Demo Docs Site and Playbook Project
+// :idprefix:
+// :idseparator: -
+// URIs:
+:uri-project: https://antora.org
+:uri-org: https://gitlab.com/antora
+:uri-group: {uri-org}/demo
+:uri-repo: {uri-group}/demo-site
+:uri-opendevise: https://opendevise.com
+
+This is the playbook project for the Antora demonstration site.
+
+An Antora playbook is responsible for generating a documentation site.
+It's strictly a _configuration as code_ repository; it doesn't contain any software or content.
+Instead, it contains the instructions a user want to relay to an Antora pipeline.
+These instructions include the content the Antora should assemble and the UI to apply to each page.
+
+To use this playbook project and generate a local documentation site, install the Antora CLI and default pipeline.
+
+////
+== Copyright and License
+
+Copyright (C) 2017-2018 OpenDevise Inc. and the Antora Project.
+
+Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
+See link:LICENSE[] to find the full license text.
+
+== Authors
+
+Development of Antora is led and sponsored by {uri-opendevise}[OpenDevise Inc].
+////
