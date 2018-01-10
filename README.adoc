@@ -1,4 +1,4 @@
-= Antora Demo Docs Site and Playbook Project
+= Antora Demo Site and Playbook Project
 // :idprefix:
 // :idseparator: -
 // URIs:
@@ -16,6 +16,17 @@ Instead, it contains the instructions a user want to relay to an Antora pipeline
 These instructions include the content the Antora should assemble and the UI to apply to each page.
 
 To use this playbook project and generate a local documentation site, install the Antora CLI and default pipeline.
+
+== Example Production Playbook
+
+The file [.path]_site.yml_ is the playbook used to produce the demo site in the production environment.
+Antora will fetch and use the content from the Component A and Component B remote repositories.
+
+== Example Local Playbook
+
+The file [.path]_site-workspace.yml_ is the playbook used to produce the demo site on a writer's machine.
+This playbook tells Antora to use the local, un-committed changes in the version 2.0 branch of Component B.
+It will fetch and use the content from Component A's remote repository and the v1.0 branch from Component B's remote repository.
 
 ////
 == Copyright and License
