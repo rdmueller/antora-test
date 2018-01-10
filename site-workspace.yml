@@ -1,0 +1,10 @@
+site:
+  title: Antora Demo Site
+content:
+  sources:
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: master
+  - url: workspace/demo-component-b.git
+    branches: v2.0
+ui:
+  bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
