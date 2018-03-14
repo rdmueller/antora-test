@@ -22,12 +22,12 @@ An {uri-docs-playbook}[Antora playbook] is responsible for generating a document
 It contains the instructions a user wants to relay to an Antora site generator pipeline.
 These instructions include the content Antora should collect and the UI it should apply to the generated site.
 
-The file [.path]_site.yml_ in this repository is the playbook used to produce the demo site.
+The file [.path]_demo-site.yml_ in this repository is the playbook used to produce the demo site.
 It tells Antora where to find the Component A and Component B remote content repositories and default UI.
 
 == Generate the Demo Site
 
-Once you've installed Antora and saved the demo playbook ([.path]_site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
+Once you've installed Antora and saved the demo playbook ([.path]_demo-site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
 
 == Copyright and License
 
