@@ -1,6 +1,6 @@
 site:
   title: Antora Demo Site
-  start_page: master@demo-component-b::index
+  start_page: demo-component-b::index
 content:
   sources:
   - url: https://gitlab.com/antora/demo/demo-component-a.git
