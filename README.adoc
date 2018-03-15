@@ -6,29 +6,29 @@
 :uri-org: https://gitlab.com/antora
 :uri-group: {uri-org}/demo
 :uri-repo: {uri-group}/demo-site
+:uri-antora-docs: https://docs.antora.org/antora/1.0
+:uri-docs-install: {uri-antora-docs}/install/install-antora/
+:uri-docs-playbook: {uri-antora-docs}/playbook/playbook/
+:uri-docs-run: {uri-antora-docs}/run-antora-to-generate-site/
 :uri-opendevise: https://opendevise.com
 
 This is the playbook project for the Antora demonstration site.
 
-An Antora playbook is responsible for generating a documentation site.
-It's strictly a _configuration as code_ repository; it doesn't contain any software or content.
-Instead, it contains the instructions a user want to relay to an Antora pipeline.
-These instructions include the content the Antora should assemble and the UI to apply to each page.
+To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
 
-To use this playbook project and generate a local documentation site, install the Antora CLI and default pipeline.
+== Playbook
 
-== Example Production Playbook
+An {uri-docs-playbook}[Antora playbook] is responsible for generating a documentation site.
+It contains the instructions a user wants to relay to an Antora site generator pipeline.
+These instructions include the content Antora should collect and the UI it should apply to the generated site.
 
-The file [.path]_site.yml_ is the playbook used to produce the demo site in the production environment.
-Antora will fetch and use the content from the Component A and Component B remote repositories.
+The file [.path]_demo-site.yml_ in this repository is the playbook used to produce the demo site.
+It tells Antora where to find the Component A and Component B remote content repositories and default UI.
 
-== Example Local Playbook
+== Generate the Demo Site
 
-The file [.path]_site-workspace.yml_ is the playbook used to produce the demo site on a writer's machine.
-This playbook tells Antora to use the local, un-committed changes in the version 2.0 branch of Component B.
-It will fetch and use the content from Component A's remote repository and the v1.0 branch from Component B's remote repository.
+Once you've installed Antora and saved the demo playbook ([.path]_demo-site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
 
-////
 == Copyright and License
 
 Copyright (C) 2017-2018 OpenDevise Inc. and the Antora Project.
@@ -39,4 +39,3 @@ See link:LICENSE[] to find the full license text.
 == Authors
 
 Development of Antora is led and sponsored by {uri-opendevise}[OpenDevise Inc].
-////
