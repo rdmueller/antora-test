@@ -6,6 +6,7 @@
 :uri-org: https://gitlab.com/antora
 :uri-group: {uri-org}/demo
 :uri-repo: {uri-group}/demo-site
+:uri-demo-playbook: {uri-repo}/blob/master/demo-site.yml
 :uri-antora-docs: https://docs.antora.org/antora/1.0
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook/
@@ -27,11 +28,11 @@ It tells Antora where to find the Component A and Component B remote content rep
 
 == Generate the Demo Site
 
-Once you've installed Antora and saved the demo playbook ([.path]_demo-site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
+Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_demo-site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
 
 == Copyright and License
 
-Copyright (C) 2017-2018 OpenDevise Inc. and the Antora Project.
+Copyright (C) 2017-2018 OpenDevise Inc. and individual Antora Project contributors.
 
 Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
 See link:LICENSE[] to find the full license text.
