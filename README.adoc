@@ -6,7 +6,7 @@
 :uri-org: https://gitlab.com/antora
 :uri-group: {uri-org}/demo
 :uri-repo: {uri-group}/demo-site
-:uri-demo-playbook: {uri-repo}/blob/master/demo-site.yml
+:uri-demo-playbook: {uri-repo}/blob/master/site.yml
 :uri-antora-docs: https://docs.antora.org/antora/1.0
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook/
@@ -23,12 +23,12 @@ An {uri-docs-playbook}[Antora playbook] is responsible for generating a document
 It contains the instructions a user wants to relay to an Antora site generator pipeline.
 These instructions include the content Antora should collect and the UI it should apply to the generated site.
 
-The file [.path]_demo-site.yml_ in this repository is the playbook used to produce the demo site.
+The file [.path]_site.yml_ in this repository is the playbook used to produce the demo site.
 It tells Antora where to find the Component A and Component B remote content repositories and default UI.
 
 == Generate the Demo Site
 
-Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_demo-site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
+Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
 
 == Copyright and License
 
