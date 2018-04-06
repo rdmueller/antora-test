@@ -10,7 +10,7 @@
 :uri-antora-docs: https://docs.antora.org/antora/1.0
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook/
-:uri-docs-run: {uri-antora-docs}/run-antora-to-generate-site/
+:uri-docs-run: {uri-antora-docs}/run-antora/
 :uri-opendevise: https://opendevise.com
 
 This is the playbook project for the Antora demonstration site.
