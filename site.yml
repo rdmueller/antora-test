@@ -1,6 +1,6 @@
 site:
   title: Antora Demo Site
-  # the sitemap files and 404 page only get generated when the url property is set
+  # the 404 page and sitemap files only get generated when the url property is set
   url: https://example.org/docs
   start_page: component-b::index.adoc
 content:
