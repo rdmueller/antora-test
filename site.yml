@@ -1,5 +1,7 @@
 site:
   title: Antora Demo Site
+  # the sitemap and 404 are only generated when the url property is set
+  url: https://example.org/docs
   start_page: component-b::index
 content:
   sources:
